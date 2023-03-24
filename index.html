@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRATIK BORUDE- Portfolio</title>
+    
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Pratik Dipak Borude
+          <div class="contact_info">
+            <img src="html_finalprojimages/email.jpg"/>
+          borudepratik8@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.jpeg"/>
+          +918483863902
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#projects">Projects</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#skills">Skills</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/coder.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Pratik Borude! <img src="html_finalprojimages/hi.png" width="50px",heigth="20px",depth="20px"/>
+          </h1>
+          <p>
+            I am pursuing TE in computer engineering from SPPU university.
+            I am interested in full stack development with IBM.
+            I have studied and certified by IBM Cloud through the coursera platform. 
+            I developed mini projects 
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills:</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html.png"/>
+          <h4>HTML</h4><br>
+          <p>certified from coursera</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.png"/>
+          <h4>JavaScript</h4><br>
+          <p>certified from coursera</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+          <img src="html_finalprojimages/sql.png"/>
+          <h4>MY SQL</h4><br>
+          <p>studied and worked on projects </p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/python.jpeg"/>
+          <h4>PYTHON</h4><br>
+          <p>completed and worked on some mini projects</p>
+        </div>  
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects:
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>registration form </h3>
+            <ul>
+              <li>The registration form is created of the basis of students personal details </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Student mangement system</h3>
+            <ul>
+              <li>Developed and deployed a student mangement system with databases,python,</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Portfolio </h3>
+            <ul>
+              <li>Created a styled one page website for the build up of resume with IBM</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations:</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Pratik is a very quick learner and quickly grasps key concepts of Web development. 
+          He got a great attitude & he is an excellent. 
+          He has a curious mind. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Pratik has been an awesome experience. 
+          HE is knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need him expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Pratik during the initial phase of our venture which needed Web development. 
+          He is a committed resource who has in depth knowledge about the domain. 
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving the recommendations</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
